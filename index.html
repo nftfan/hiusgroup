@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiUs Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #002D62;
+        }
+        header {
+            background-color: #002D62;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #FFD700;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            margin: 5px 15px;
+            text-decoration: none;
+            color: #002D62;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://raw.githubusercontent.com/nftfan/hiusgroup/95876d86699e12bc9c4d5a64b0b52b745e49112e/HiUs%20Group%20(1).svg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .businesses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .business-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .business-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .business-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .business-card h3 {
+            margin: 15px 0 10px;
+        }
+        footer {
+            background-color: #002D62;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+            .hero p {
+                font-size: 1em;
+            }
+            .business-card {
+                padding: 15px;
+            }
+            .section {
+                padding: 20px 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            .hero p {
+                font-size: 0.8em;
+            }
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HiUs Group</h1>
+        <p>Innovating for a Better Future – One Business at a Time</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#businesses">Businesses</a>
+        <a href="#news">News</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to HiUs Group</h1>
+        <p>Empowering industries with innovation, compassion, and sustainability.</p>
+    </div>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>HiUs Group is a collective of visionary businesses united by a commitment to excellence, innovation, and sustainability. From cutting-edge technology to heartwarming coffee experiences, we transform ideas into impactful realities.</p>
+    </section>
+    <section id="businesses" class="section">
+        <h2>Our Businesses</h2>
+        <div class="businesses">
+            <div class="business-card">
+                <img src="https://via.placeholder.com/300x200" alt="GreenAi">
+                <h3>GreenAi</h3>
+                <p>Designing advanced AI chips to power sustainable technologies while maximizing performance and minimizing energy consumption.</p>
+            </div>
+            <div class="business-card">
+                <img src="https://via.placeholder.com/300x200" alt="PurpelRehab">
+                <h3>PurpelRehab</h3>
+                <p>A state-of-the-art institution providing holistic rehabilitation services for older adults to enhance their quality of life.</p>
+            </div>
+            <div class="business-card">
+                <img src="https://via.placeholder.com/300x200" alt="B-Potatoes">
+                <h3>B-Potatoes</h3>
+                <p>We grow the finest potatoes with eco-friendly practices, ensuring a delicious and sustainable future.</p>
+            </div>
+            <div class="business-card">
+                <img src="https://via.placeholder.com/300x200" alt="Hiba's Coffee Cup">
+                <h3>Hiba's Coffee Cup</h3>
+                <p>Crafting the perfect cup of coffee, one bean at a time, to awaken your senses and brighten your day.</p>
+            </div>
+            <div class="business-card">
+                <img src="https://via.placeholder.com/300x200" alt="LeuvenFlyers">
+                <h3>LeuvenFlyers</h3>
+                <p>Specializing in flyer distribution to connect small businesses with local communities effectively.</p>
+            </div>
+            <div class="business-card">
+                <img src="https://via.placeholder.com/300x200" alt="NFT FAN TOKEN">
+                <h3>NFT FAN TOKEN</h3>
+                <p>A crypto project driving innovative web3 advertisement solutions with community-driven growth and decentralized technology.</p>
+            </div>
+        </div>
+    </section>
+    <section id="news" class="section">
+        <h2>News</h2>
+        <p>Stay tuned for updates from HiUs Group businesses, including innovations, events, and achievements.</p>
+    </section>
+    <section id="careers" class="section">
+        <h2>Careers</h2>
+        <p>Join us in creating a better tomorrow. Explore exciting career opportunities across our diverse businesses.</p>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to connect? Reach out to HiUs Group today!</p>
+        <p>Email: <a href="mailto:contact@hiusgroup.com">contact@hiusgroup.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 HiUs Group. All rights reserved.</p>
+    </footer>
+</body>
+</html>
